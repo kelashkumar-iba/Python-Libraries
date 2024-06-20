@@ -30,7 +30,7 @@ while count <= 5:
     print(count)
     count += 1
 
-# Practical example
+# Practical example.
 # Find prime numbers within a range
 start = 10
 end = 50
