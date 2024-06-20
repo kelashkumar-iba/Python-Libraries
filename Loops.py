@@ -36,7 +36,7 @@ start = 10
 end = 50
 
 for num in range(start, end + 1):
-    # Prime numbers are greater than 1
+    # Prime numbers are greater than 1.
     if num > 1:
         for i in range(2, num):
             if (num % i) == 0:
@@ -44,6 +44,6 @@ for num in range(start, end + 1):
         else:
             print(num)
 
-
+#All About Loops.
 
 
