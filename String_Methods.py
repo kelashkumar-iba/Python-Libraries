@@ -33,6 +33,17 @@ print(replaced_text)  # Output: Hello, Python!
 text = "Hello, World!"
 split_text = text.split(", ")
 print(split_text)  # Output: ['Hello', 'World!']
+# Split converts the text into a list of strings
 
+# 6) Find
 
+text = "Hello, World!"
+index = text.find("World")
+print(index)  # Output: 7
+
+# 7) Capitalize
+
+text = "hello, world!"
+capitalized_text = text.capitalize()
+print(capitalized_text)  # Output: Hello, world!
 
