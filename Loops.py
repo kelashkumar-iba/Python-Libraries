@@ -33,7 +33,7 @@ while count <= 5:
 # Practical example.
 # Find prime numbers within a range
 start = 10
-end = 50
+end = 45
 
 for num in range(start, end + 1):
     # Prime numbers are greater than 1.
@@ -44,6 +44,7 @@ for num in range(start, end + 1):
         else:
             print(num)
 
-#All About Loops.
+#Loops.
+# Practice By Kelash.
 
 
