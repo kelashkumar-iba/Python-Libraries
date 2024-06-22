@@ -60,4 +60,8 @@ text = ["Hello", "World"]
 joined_text = " ".join(text)
 print(joined_text)  # Output: Hello World
 
-# 10) 
+# 10) isdigit
+
+text = "123"
+is_digit = text.isdigit()
+print(is_digit)  # Output: True
