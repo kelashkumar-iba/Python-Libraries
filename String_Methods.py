@@ -47,3 +47,17 @@ text = "hello, world!"
 capitalized_text = text.capitalize()
 print(capitalized_text)  # Output: Hello, world!
 
+
+# 8) Title
+
+text = "hello, world!"
+title_text = text.title()
+print(title_text)  # Output: Hello, World!
+
+# 9) Join
+
+text = ["Hello", "World"]
+joined_text = " ".join(text)
+print(joined_text)  # Output: Hello World
+
+# 10) 
