@@ -65,3 +65,15 @@ print(joined_text)  # Output: Hello World
 text = "123"
 is_digit = text.isdigit()
 print(is_digit)  # Output: True
+
+# 11) isalpha
+
+text = "Hello"
+is_alpha = text.isalpha()
+print(is_alpha)  # Output: True
+
+# 12) isalnum
+
+text = "Hello123"
+is_alnum = text.isalnum()
+print(is_alnum)  # Output: True
