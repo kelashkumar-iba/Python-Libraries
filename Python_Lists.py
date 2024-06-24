@@ -75,3 +75,20 @@ print(int_list)  # Output: [20, 5, 6, 7]
 int_list.clear()
 print(int_list)  # Output: []
 
+# -------------------------------------------------
+# List Operations
+# Concatenation
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+combined_list = list1 + list2
+print(combined_list)  # Output: [1, 2, 3, 4, 5, 6]
+
+# Repetition
+repeated_list = list1 * 3
+print(repeated_list)  # Output: [1, 2, 3, 1, 2, 3, 1, 2, 3]
+
+# Membership
+print(2 in list1)  # Output: True
+print(4 in list1)  # Output: False
+
+
