@@ -44,7 +44,7 @@ for num in range(start, end + 1):
         else:
             print(num)
 
-#Loops.
+# Python Loops
 # Practice By Kelash.
 
 
