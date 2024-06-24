@@ -115,5 +115,16 @@ print(list1)  # Output: [4, 3, 2, 1]
 list_copy = list1.copy()
 print(list_copy)  # Output: [4, 3, 2, 1]
 
+# ---------------------------------------------------
+# Nested Lists:
+# Creating a nested list
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
 
+# Accessing elements in a nested list
+print(matrix[0][1])  # Output: 2
+print(matrix[2][0])  # Output: 7
 
