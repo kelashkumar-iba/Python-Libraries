@@ -91,4 +91,29 @@ print(repeated_list)  # Output: [1, 2, 3, 1, 2, 3, 1, 2, 3]
 print(2 in list1)  # Output: True
 print(4 in list1)  # Output: False
 
+# ---------------------------------------------------
+# List Methods:
+# Append
+list1.append(4)
+print(list1)  # Output: [1, 2, 3, 4]
+
+# Count: counts the occurrences of a value
+print(list1.count(2))  # Output: 1
+
+# Index: finds the index of the first occurrence of a value
+print(list1.index(3))  # Output: 2
+
+# Sort: sorts the list in ascending order
+list1.sort()
+print(list1)  # Output: [1, 2, 3, 4]
+
+# Reverse: reverses the list
+list1.reverse()
+print(list1)  # Output: [4, 3, 2, 1]
+
+# Copy: returns a shallow copy of the list
+list_copy = list1.copy()
+print(list_copy)  # Output: [4, 3, 2, 1]
+
+
 
