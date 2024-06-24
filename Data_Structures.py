@@ -71,7 +71,7 @@ print(my_dict)  # Output: {'name': 'Kelash', 'age': 21, 'job': 'Engineer'}
 # Practical Example
 # Information about a person
 person = {
-    'Name': 'Ali',
+    'Name': 'Raqib',
     'Age': 23,
     'City': 'Sukkur'
 }
