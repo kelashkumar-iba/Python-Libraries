@@ -110,3 +110,14 @@ print(reshaped_arr)  # Output: [[0 1 2 3 4]
 
 
 # -------------------------------------------------------
+
+# Statistical Operations
+arr = np.array([1, 2, 3, 4, 5])
+
+print(np.mean(arr))  # Output: 3.0
+print(np.median(arr))# Output: 3.0
+print(np.std(arr))   # Output: 1.4142135623730951
+print(np.var(arr))   # Output: 2.0
+print(np.sum(arr))   # Output: 15
+print(np.min(arr))   # Output: 1
+print(np.max(arr))   # Output: 5
