@@ -49,3 +49,42 @@ print("Original Array:")
 print(arr)
 print("\nSub-array (2nd and 3rd rows, 2nd and 3rd columns):")
 print(sub_array)
+
+# -----------------------------------------------------
+# Example Question 4: Statistical Operations
+
+import numpy as np
+
+data = np.array([10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
+
+# Calculate statistics
+mean = np.mean(data)
+median = np.median(data)
+std_dev = np.std(data)
+
+print("Mean:", mean)
+print("Median:", median)
+print("Standard Deviation:", std_dev)
+
+# -----------------------------------------------------
+# Example Question 5: Matrix Multiplication
+import numpy as np
+
+A = np.array([[1, 2], 
+              [3, 4]])
+
+B = np.array([[5, 6], 
+              [7, 8]])
+
+# Perform matrix multiplication
+C = np.dot(A, B)
+
+print("Matrix A:")
+print(A)
+print("\nMatrix B:")
+print(B)
+print("\nMatrix Multiplication (A dot B):")
+print(C)
+
+# -----------------------------------------------------
+
