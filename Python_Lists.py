@@ -53,3 +53,25 @@ print(int_list)  # Output: [10, 20, 30, 4, 5, 6, 7, 8]
 # Insert: adds an element at a specific position
 int_list.insert(2, 25)
 print(int_list)  # Output: [10, 20, 25, 30, 4, 5, 6, 7, 8]
+
+# -------------------------------------------------
+# Remove: removes the first occurrence of a value
+int_list.remove(25)
+print(int_list)  # Output: [10, 20, 30, 4, 5, 6, 7, 8]
+
+# Pop: removes and returns the element at a specific index (default is the last element)
+last_element = int_list.pop()
+print(last_element)  # Output: 8
+print(int_list)      # Output: [10, 20, 30, 4, 5, 6, 7]
+
+# Del: removes an element or a slice from the list
+del int_list[0]
+print(int_list)  # Output: [20, 30, 4, 5, 6, 7]
+
+del int_list[1:3]
+print(int_list)  # Output: [20, 5, 6, 7]
+
+# Clear: removes all elements from the list
+int_list.clear()
+print(int_list)  # Output: []
+
