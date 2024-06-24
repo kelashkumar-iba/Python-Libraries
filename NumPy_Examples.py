@@ -14,7 +14,7 @@ print(even_numbers)
 print("\nReshaped 2D Array (4x5):")
 print(reshaped_array)
 
-
+# -------------------------------------------------
 # Example Question 2: Element-wise Operations
 
 import numpy as np
@@ -33,3 +33,19 @@ print("Subtraction:", subtraction)
 print("Multiplication:", multiplication)
 print("Division:", division)
 
+# -----------------------------------------------------
+# Example Question 3: Slicing and Indexing
+
+import numpy as np
+
+arr = np.array([[1, 2, 3], 
+                [4, 5, 6], 
+                [7, 8, 9]])
+
+# Extract sub-array
+sub_array = arr[1:3, 1:3]
+
+print("Original Array:")
+print(arr)
+print("\nSub-array (2nd and 3rd rows, 2nd and 3rd columns):")
+print(sub_array)
