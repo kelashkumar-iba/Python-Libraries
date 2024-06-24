@@ -121,7 +121,7 @@ print(list_copy)  # Output: [4, 3, 2, 1]
 matrix = [
     [1, 2, 3],
     [4, 5, 6],
-    [7, 8, 9]
+    [7, 8, 4]
 ]
 
 # Accessing elements in a nested list
