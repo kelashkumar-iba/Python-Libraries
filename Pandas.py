@@ -45,3 +45,19 @@ print(df.iloc[0])  # First row
 print(df.iloc[1:5, [0, 3]])  # First five rows, first and fourth columns
 
 print([df.sort_values("avg_temp_c", ascending = False)])
+
+# Filter rows where avg_temp_c is greater than 28
+filtered_df = df[df['avg_temp_c'] > 37.5]
+print(filtered_df)
+
+
+# Group by city and compute the mean of avg_temp_c
+grouped_df = df.groupby('city')['avg_temp_c'].mean()
+print(grouped_df)
+
+# Group by country and compute the sum of avg_temp_c
+grouped_df = df.groupby('country')['avg_temp_c'].sum()
+print(grouped_df)
+
+print(df[(df['country'] == 'Pakistan') & (df['avg_temp_c'] > 34)])
+
