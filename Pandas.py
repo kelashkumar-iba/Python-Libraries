@@ -44,3 +44,4 @@ print(df.loc[1:5, ['date', 'avg_temp_c']])
 print(df.iloc[0])  # First row
 print(df.iloc[1:5, [0, 3]])  # First five rows, first and fourth columns
 
+print(df.sort_values(['city']))
